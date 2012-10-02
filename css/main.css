@@ -18,6 +18,11 @@ h1{
 	display:inline;
 }
 
+#brand h1{
+	position:relative;
+	top:-10px;
+}
+
 h2{
 	text-decoration:underline;
 	
@@ -36,27 +41,33 @@ h2{
 }
 
 header{
-	height: 75px;
+	height: 50px;
 	background-color: orange;
 }
 
 ul{
+	background:white;
 	width:300px;
-	background:#999;
 	list-style-type:none;
 	padding:0;
 	overflow:hidden;
+	float:right;
+	margin-right:10px;
 }
 
 li{
 	width:100px;
-	background:silver;
-	float:right;
+	float:left;
 }
 
 a{
+	text-align:center;
 	text-decoration:none;
-	background:#fff;
 	display:block;
 	height:30px;
+	line-height:30px;
+}
+
+a:hover{
+	background:red;
 }
