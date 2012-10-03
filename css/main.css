@@ -36,7 +36,8 @@ a{
 	display:block;
 	height:30px;
 	line-height:30px;
-	color:white;
+	color:white; 
+	text-shadow:black 0.1em 0.1em 0.2em
 }
 
 a:visited{
@@ -57,9 +58,10 @@ a:hover{
 }
 
 h1{
-	font-family:"Hoefler Text", Impact;
+	font-family: "Six Caps", sans serif;
 	display:inline;
-	color:white;
+	color:white; 
+	text-shadow:black 0.1em 0.1em 0.2em
 }
 
 #brand h1{
@@ -73,8 +75,14 @@ h2{
 }
 
 #mainpara{
+	-ms-column-count:3;
+	-ms-column-gap:50px;
 	-moz-column-count:3;
 	-moz-column-gap:50px;
+	-webkit-column-count:3;
+	-webkit-column-gap:50px;
+	-o-column-count:3;
+	-o-column-gap:50px;
 }
 
 #wrapper{
@@ -87,4 +95,13 @@ header{
 	height: 50px;
 	background-color: #0052a3;
 }
+
+
+#intropic img{
+	text-align:center;
+	margin-left:29%;
+	
+}
+
+/*------------------------------------Gallery-------------------------------------*/
 
