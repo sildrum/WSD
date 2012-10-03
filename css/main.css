@@ -1,13 +1,56 @@
 @charset "utf-8";
+/*-------------------------Nav Elements-----------------------------------*/
 
 body{
 	color: #323232;
 	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size:16px;
 	line-height:1.5;
-	background-color: #666;
+	background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top, #f0b7a1 0%, #bf6e4e 12%, #8c3310 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b7a1), color-stop(12%,#bf6e4e), color-stop(100%,#8c3310)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f0b7a1 0%,#bf6e4e 12%,#8c3310 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f0b7a1 0%,#bf6e4e 12%,#8c3310 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f0b7a1 0%,#bf6e4e 12%,#8c3310 100%); /* IE10+ */
+background: linear-gradient(to bottom, #f0b7a1 0%,#bf6e4e 12%,#8c3310 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#8c3310',GradientType=0 ); /* IE6-9 */
 }
 	
+ul{
+	width:300px;
+	list-style-type:none;
+	padding:0;
+	overflow:hidden;
+	float:right;
+	margin-right:10px;
+}
+
+li{
+	width:100px;
+	float:left;
+}
+
+a{
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	height:30px;
+	line-height:30px;
+	color:white;
+}
+
+a:visited{
+	color:grey;
+
+}
+
+a:hover{
+	background:black;
+}
+
+
+
+/*-------------------------------Main Content Elements --------------------------*/
 #brand{
 	float:left;
 	width:400px;
@@ -16,6 +59,7 @@ body{
 h1{
 	font-family:"Hoefler Text", Impact;
 	display:inline;
+	color:white;
 }
 
 #brand h1{
@@ -36,38 +80,11 @@ h2{
 #wrapper{
 	 width: 1000px;
 	 margin: 0 auto;
-	 border: 3px solid yellow;
 	 background-color: white;
 }
 
 header{
 	height: 50px;
-	background-color: orange;
+	background-color: #0052a3;
 }
 
-ul{
-	background:white;
-	width:300px;
-	list-style-type:none;
-	padding:0;
-	overflow:hidden;
-	float:right;
-	margin-right:10px;
-}
-
-li{
-	width:100px;
-	float:left;
-}
-
-a{
-	text-align:center;
-	text-decoration:none;
-	display:block;
-	height:30px;
-	line-height:30px;
-}
-
-a:hover{
-	background:red;
-}
