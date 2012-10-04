@@ -25,7 +25,7 @@ ul{
 	margin-right:10px;
 }
 
-li{
+ul li{
 	width:100px;
 	float:left;
 }
@@ -54,11 +54,12 @@ a:hover{
 /*-------------------------------Main Content Elements --------------------------*/
 #brand{
 	float:left;
-	width:400px;
+	width:500px;
 }
 
 h1{
-	font-family: "Six Caps", sans serif;
+	font-family: "Stalinist One", cursive;
+	font-size:25px;
 	display:inline;
 	color:white; 
 	text-shadow:black 0.1em 0.1em 0.2em
@@ -71,7 +72,7 @@ h1{
 
 h2{
 	text-decoration:underline;
-	
+	margin:0px 20px;
 }
 
 #mainpara{
@@ -83,6 +84,7 @@ h2{
 	-webkit-column-gap:50px;
 	-o-column-count:3;
 	-o-column-gap:50px;
+	margin:0px 20px;
 }
 
 #wrapper{
@@ -100,8 +102,26 @@ header{
 #intropic img{
 	text-align:center;
 	margin-left:29%;
-	
+}
+
+h3{
+	text-decoration:underline;
+	margin:10px 20px;
 }
 
 /*------------------------------------Gallery-------------------------------------*/
 
+
+#pics  {
+	border:1px dashed black;
+	list-style-type:none;
+	width:1000px;
+	margin:20px auto;
+	overflow:hidden;
+	padding:5px;
+}
+
+#pics li{
+	float:left;
+	margin-left:19px;
+}
