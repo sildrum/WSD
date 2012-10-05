@@ -181,6 +181,12 @@ h2 {
 
 /*--------------------------------Contact----------------------------------------*/
 
+section h2 {
+	font-family:"Amaranth", sans-serif;
+	text-decoration:underline;
+	margin:10px 20px;
+}
+
 /*-----#table{
 	width:400px;
 	height:200px;
