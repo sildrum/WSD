@@ -1,13 +1,21 @@
 
 /*-------------------------Nav Elements-----------------------------------*/
 
+
 body{
 	color: #323232;
+<<<<<<< HEAD
+=======
+	font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;
+>>>>>>> editted background
 	font-size:16px;
 	line-height:1.3;
 	background-image: url("../images/backg.jpg");
 	background-size: cover;
+<<<<<<< HEAD
 
+=======
+>>>>>>> editted background
 	
 }
 	
@@ -88,7 +96,11 @@ section h2 {
 	 width: 1000px;
 	 margin: 0 auto;
 	 background-color: white;
+<<<<<<< HEAD
 	 opacity: .82;
+=======
+	 opacity:0.90;
+>>>>>>> editted background
 }
 
 header{
@@ -102,9 +114,21 @@ header{
 	margin-left:29%;
 }
 
+<<<<<<< HEAD
 footer{
 	text-align:center;
 }
+=======
+h3 {
+	font-family:"Amaranth", sans-serif;
+	text-decoration:underline;
+	margin:10px 20px;
+}
+
+footer{
+	text-align:center;
+}
+>>>>>>> editted background
 /*------------------------------------Gallery-------------------------------------*/
 
 #gpara{
