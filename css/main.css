@@ -1,22 +1,17 @@
-@charset "utf-8";
+
 /*-------------------------Nav Elements-----------------------------------*/
 
 body{
 	color: #323232;
-	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size:16px;
-	line-height:1.5;
-	background: #f0b7a1; /* Old browsers */
-background: -moz-linear-gradient(top, #f0b7a1 0%, #bf6e4e 12%, #8c3310 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b7a1), color-stop(12%,#bf6e4e), color-stop(100%,#8c3310)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #f0b7a1 0%,#bf6e4e 12%,#8c3310 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #f0b7a1 0%,#bf6e4e 12%,#8c3310 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #f0b7a1 0%,#bf6e4e 12%,#8c3310 100%); /* IE10+ */
-background: linear-gradient(to bottom, #f0b7a1 0%,#bf6e4e 12%,#8c3310 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#8c3310',GradientType=0 ); /* IE6-9 */
+	line-height:1.3;
+	background-image: url("../images/backg.jpg");
+	background-size: cover;
+
+	
 }
 	
-ul{
+nav ul{
 	width:300px;
 	list-style-type:none;
 	padding:0;
@@ -25,12 +20,12 @@ ul{
 	margin-right:10px;
 }
 
-ul li{
+nav ul li{
 	width:100px;
 	float:left;
 }
 
-a{
+nav ul li a{
 	text-align:center;
 	text-decoration:none;
 	display:block;
@@ -40,12 +35,12 @@ a{
 	text-shadow:black 0.1em 0.1em 0.2em
 }
 
-a:visited{
+nav ul li a:visited{
 	color:grey;
 
 }
 
-a:hover{
+nav ul li a:hover{
 	background:black;
 }
 
@@ -70,12 +65,14 @@ h1{
 	top:-10px;
 }
 
-h2{
+section h2 {
+	font-family:"Amaranth", sans-serif;
 	text-decoration:underline;
 	margin:0px 20px;
 }
 
 #mainpara{
+	font-family: 'Carrois Gothic SC', sans-serif;
 	-ms-column-count:3;
 	-ms-column-gap:50px;
 	-moz-column-count:3;
@@ -91,6 +88,7 @@ h2{
 	 width: 1000px;
 	 margin: 0 auto;
 	 background-color: white;
+	 opacity: .82;
 }
 
 header{
@@ -104,24 +102,47 @@ header{
 	margin-left:29%;
 }
 
-h3{
-	text-decoration:underline;
-	margin:10px 20px;
+footer{
+	text-align:center;
 }
-
 /*------------------------------------Gallery-------------------------------------*/
 
+#gpara{
+	margin:0px 20px;
+}
 
-#pics  {
-	border:1px dashed black;
-	list-style-type:none;
-	width:1000px;
+#pics {
+	width:800px;
 	margin:20px auto;
 	overflow:hidden;
 	padding:5px;
 }
 
 #pics li{
+	list-style-type:none;
 	float:left;
 	margin-left:19px;
 }
+
+#pics li a{
+	border:10px solid black;
+	display:block;
+	height:101px;
+	width:130px
+	outline:0;
+}
+
+#pics li a:visited{
+	border-color:grey;
+
+}
+
+#pics li a:hover{
+	border-color:#0052A3;
+}
+
+#pics li a:active{
+	border-color: #8c3310;
+}
+
+
