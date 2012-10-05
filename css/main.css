@@ -45,6 +45,9 @@ nav ul li a:hover{
 	background:black;
 }
 
+nav ul li a:active{
+	background:white;
+}
 
 
 /*-------------------------------Main Content Elements --------------------------*/
@@ -89,6 +92,7 @@ section h2 {
 	 width: 1000px;
 	 margin: 0 auto;
 	 background-color: white;
+	 opacity:.90;
 
 }
 
@@ -107,11 +111,19 @@ footer{
 	text-align:center;
 }
 
+aside li{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	list-style-type:circle;
+	line-height:1.3;
+}
+
 h3 {
 	font-family:"Amaranth", sans-serif;
 	text-decoration:underline;
 	margin:10px 20px;
 }
+
+
 
 footer{
 	text-align:center;
@@ -119,6 +131,7 @@ footer{
 /*------------------------------------Gallery-------------------------------------*/
 
 #gpara{
+	font-family: 'Carrois Gothic SC', sans-serif;
 	margin:0px 20px;
 }
 
@@ -156,4 +169,8 @@ footer{
 	border-color: #8c3310;
 }
 
-
+h2 {
+	font-family:"Amaranth", sans-serif;
+	text-decoration:underline;
+	margin:10px 20px;
+}
