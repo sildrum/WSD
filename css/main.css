@@ -194,12 +194,12 @@ section h2 {
 	
 }
 
-#form{
+/*------#form{
 	width:400px;
 	height:200px;
 	background-color:black;
 
-}
+}------*/
 
 footer{
 	text-align:center;
@@ -256,4 +256,19 @@ footer{
 	position:relative;
 	right:-692px;
 	top:-120px;
+}
+
+/*-----------------------------------------fix-------------------------------------------*/
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
 }
