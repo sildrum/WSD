@@ -187,20 +187,19 @@ section h2 {
 	margin:10px 20px;
 }
 
-/*-----#table{
+#table{
 	width:400px;
 	height:200px;
 	background-color:blue;
-	margin:40px;
-	float:left;
+	
 }
 
 #form{
 	width:400px;
 	height:200px;
 	background-color:black;
-	margin-left:440px;
-}-----*/
+
+}
 
 footer{
 	text-align:center;
@@ -214,7 +213,7 @@ footer{
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 14px/100% Arial, Helvetica, sans-serif;
+	font: 20px/100% Arial, Helvetica, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
@@ -251,4 +250,10 @@ footer{
 	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
 	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+#Cbutton{
+	position:relative;
+	right:-692px;
+	top:-120px;
 }
