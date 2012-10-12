@@ -17,7 +17,7 @@ nav ul{
 	padding:0;
 	overflow:hidden;
 	float:right;
-	margin-right:.625em;/*10px*/
+	margin-right:.0333%/*.625em;/*10px*/
 }
 
 nav ul li{
@@ -101,7 +101,7 @@ header{
 }
 
 #intopic{
-	width:45%/*450/1000px*/
+	width:45%;/*450/1000px*/
 }
 
 #intropic img{
@@ -271,7 +271,7 @@ footer{
 
 #Cbutton{
 	position:relative;
-	right:-692px;
+	right:-69.2%;
 	top:-120px;
 }
 
@@ -283,27 +283,42 @@ footer{
 @media screen and (min-width:768px) and (max-width:959px){
 	#wrapper {
 		background-color:#509cff;
-		width:100%:
+		max-width:100%:
 	}
+	#intropic img{
+		margin-left:10%;
+	}
+
 }
 
 /*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
 @media only screen and (min-width:480px) and (max-width:767px){
 	#wrapper{
 		background-color:#ff7743;
-		width:100%;
+		max-width:100%;
 		}
-
+	#intropic img{
+		margin-left:10%;
+	}
 }
 
 /*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 @media only screen and (max-width:479px){
 	#wrapper{
 		background-color:#d593ff;
-		max-width:100%:
+		max-width:100%;
 		}
 	body{
 		background-image:none;
 	}
+	#intropic img{
+		display:none;
+	}
 
+	#mainpara{
+		display:inline;
+	}
+	#Cbutton{
+		display:none;
+	}
 }
