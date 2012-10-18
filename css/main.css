@@ -206,6 +206,7 @@ section p a:active{
 
 /*--------------------------------Table-----------------------------------------------*/
 table.table2{
+	width:400px;
 	font-family:'Carrois Gothic SC', sans-serif;
 	letter-spacing:-1px;
 	line-height:1.2em;
@@ -282,10 +283,108 @@ table.table2{
 .table2 tbody span.check::before{
 	content:url(../images/check2.png)
 }
-
-footer{
-	text-align:center;
+/*--------------------------------FORM----------------------------------------------*/
+* { margin: 0px; padding: 0px; }
+ 
+form body { 
+    float:left;
+    margin: 0 auto; 
+    background: #f5f5f5; 	
+    color: #555;	 
+    width: 550px; 
+    font-family:'Carrois Gothic SC', sans-serif;
 }
+ 
+form h1 { 
+    color: #555; 
+    margin: 0 0 20px 0; 
+}	
+ 
+form label {	
+    font-size: 20px;
+    color: #666; 
+}
+ 
+form fieldset { border: none; }
+
+form #user-details { 
+    float: left;
+    width: 200px; 
+}
+ 
+form #user-message { 
+    float: right;
+    width: 300px;
+}
+ 
+form textarea {		
+    width: 300px; 
+    height: 175px; 		 		
+}
+
+form { 
+    float: left;
+    border: 1px solid #ddd; 
+    padding: 10px 20px 10px 20px; 
+    margin: 20px 0 0 0;
+    width: 500px;
+    background: #fff;
+}
+
+form {	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px; 
+	border-radius: 10px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 40%, from(#EEE), to(#FFF)); 
+	background: -moz-linear-gradient(0% 40% 90deg,#FFF, #EEE); 
+	-webkit-box-shadow:0px 0 50px #ccc;
+	-moz-box-shadow:0px 0 50px #ccc; 
+	box-shadow:0px 0 50px #ccc;
+}
+
+input, textarea { 		
+    padding: 8px; 
+    margin: 4px 0 20px 0; 
+    background: #fff; 
+    width: 140px; 
+    font-size: 14px; 
+    color: #555; 
+    border: 1px #ddd solid; 
+	-webkit-box-shadow: 0px 0px 4px #aaa;
+	-moz-box-shadow: 0px 0px 4px #aaa; 
+	box-shadow: 0px 0px 4px #aaa;
+	-webkit-transition: background 0.3s linear;					
+}
+
+input:hover, textarea:hover { 
+    background: #eee; 
+}
+
+input.submit { 	
+    width: 150px; 
+    color: #eee; 
+    text-transform: uppercase; 
+    margin-top: 10px;
+    background-color: #18a5cc;
+    border: none;
+    -webkit-transition: -webkit-box-shadow 0.3s linear; 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#18a5cc), to(#0a85a8)); 
+	background:  -moz-linear-gradient(25% 75% 90deg,#0a85a8, #18a5cc); 
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+}
+
+input.submit:hover { 		
+    -webkit-box-shadow: 0px 0px 20px #555;
+    -moz-box-shadow: 0px 0px 20px #aaa; 
+    box-shadow: 0px 0px 20px #555;		
+    cursor:  pointer; 
+}
+
+/*---footer{
+	text-align:center;
+}---*/
 
 /*-----------------------------Button-----------------------------------------------*/
 
