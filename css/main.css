@@ -495,5 +495,14 @@ footer{
 		float:left;
 		margin-top:10%
 	}
-
+	nav ul{
+		float:left;
+	}
+	h1{
+		text-align:center;
+	}
+	section h2{
+		
+	}
+	
 }
